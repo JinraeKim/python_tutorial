@@ -9,6 +9,17 @@ I think [poetry](https://python-poetry.org/) is promising but
 it was often unstable to use daily from my experiences.
 
 
+## Dependency and compatibility management via poetry + pyenv
+Background: Main issues of using Miniconda would be twofold:
+- Miniconda envs include specific Python version. This may be useful for strict version control for reproducing results but may be too restrictive for compatibility (for different Python versions).
+- To the best of my knowledge, Miniconda is not good for "compatibility" management.
+
+### pyenv
+- Take a look at [the official pyenv github repo](https://github.com/pyenv/pyenv?tab=readme-ov-file) for installation, etc.
+
+### poetry
+- Take a look at [the official poetry website](https://python-poetry.org/) for installation, etc.
+
 
 ## Dependency management via Miniconda
 Here, we will consider Miniconda for beginners of Python.
